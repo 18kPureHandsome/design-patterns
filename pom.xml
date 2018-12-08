@@ -22,6 +22,7 @@
   <modules>
     <module>singleton</module>
     <module>abstract-factory</module>
+    <module>Proxy</module>
   </modules>
 
   <dependencies>
@@ -30,6 +31,11 @@
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>cglib</groupId>
+      <artifactId>cglib</artifactId>
+      <version>3.1</version>
     </dependency>
   </dependencies>
 
